@@ -4,7 +4,7 @@ import testimonios from "./testimonios-data";
 
 function App() {
 	return (
-		<div className="App">
+		<div className="app">
 			<div className="main__container">
 				<h1>Here is what our alumni say about freeCodeCamp:</h1>
 				{testimonios.map((testimonio, index) => (
